@@ -11,3 +11,6 @@ def reverse(value):
 		rev_value.append(value[i])
 
 	return "".join(rev_value)
+
+
+print(reverse('Hey! I\'m Vishnu'))

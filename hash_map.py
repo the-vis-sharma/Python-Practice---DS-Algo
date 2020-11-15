@@ -61,3 +61,20 @@ class MyHashMap:
 				node = node.next
 
 		return allKeys
+
+
+myMap = MyHashMap(5)
+
+myMap.insert("Vishnu", 5)
+myMap.insert("Usha", 10)
+myMap.insert("Vishnu", 6)
+myMap.insert("Ranu", 3)
+myMap.insert("Ranu Gupta", 8)
+myMap.insert("Usha Gupta", 0)
+myMap.insert("Usha Vishnu Sharma", 8)
+
+print("map: ", myMap.data)
+print("item: ", myMap.get("Usha"))
+print("item: ", myMap.get("Ranu"))
+print("item: ", myMap.get("Usha Gupta"))
+print("all keys: ", myMap.keys())

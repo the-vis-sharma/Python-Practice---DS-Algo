@@ -28,3 +28,7 @@ def mergeArray(arr1, arr2):
 	return mergedArray
 
 # O(n)
+
+arr1 = [1, 3, 5, 6]
+arr2 = [2, 4, 5, 8, 9]
+print(mergeArray(arr1, arr2))
